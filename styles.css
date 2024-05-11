@@ -7,6 +7,7 @@ body {
     align-items: center;
     background-color: #000;
     color: #fff;
+    position: relative; /* Ajout de position relative pour que l'élément absolu soit positionné par rapport à lui */
 }
 
 .container {
@@ -18,8 +19,10 @@ h1 {
     font-size: 1em;
 }
 
-.gif {
+.logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px; /* Ajustez cette valeur selon votre préférence pour l'espace en haut */
+    left: 20px; /* Ajustez cette valeur selon votre préférence pour l'espace à gauche */
+    width: 100px; /* Ajustez la largeur selon votre préférence */
+    height: auto; /* Pour maintenir le ratio */
 }
