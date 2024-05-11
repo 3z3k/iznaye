@@ -17,3 +17,9 @@ h1 {
     font-family: "coolveticabd", sans-serif;
     font-size: 1em;
 }
+
+.gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
