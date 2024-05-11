@@ -18,11 +18,3 @@ h1 {
     font-family: "coolveticabd", sans-serif;
     font-size: 1em;
 }
-
-.logo {
-    position: absolute;
-    top: 20px; /* Ajustez cette valeur selon votre préférence pour l'espace en haut */
-    left: 20px; /* Ajustez cette valeur selon votre préférence pour l'espace à gauche */
-    width: 100px; /* Ajustez la largeur selon votre préférence */
-    height: auto; /* Pour maintenir le ratio */
-}
